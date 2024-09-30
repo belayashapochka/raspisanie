@@ -140,7 +140,7 @@ console.log(`Group ${numberOfGroup}`);
 
 // weekEven == 0 - четная неделя
 
-if (weekEven == 0) {
+if (weekEven == 1) {
     if (numberOfGroup == 1) {
         createDay(`Понедельник`, `monday`);
         fillDay(monday);
